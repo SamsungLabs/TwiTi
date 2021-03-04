@@ -1,0 +1,14 @@
+# This is a config file example.
+# Rename this to config.yaml
+VirusTotal:
+  API_KEY:
+    - # Add api keys here
+
+AlienVault:
+  API_KEY: #Add api key here
+
+Hybrid-analysis.com:
+  API_KEY: #Add api key here
+
+ner:
+  host: # address for NER
