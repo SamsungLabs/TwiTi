@@ -1,5 +1,5 @@
 The followings are the supplementary materials for the paper   
-"\#Twiti: Social Listening for Threat Intelligence" (TheWebConf 2021)   <!-- TODO: Link to paper -->
+"[\#Twiti: Social Listening for Threat Intelligence](https://dl.acm.org/doi/10.1145/3442381.3449797)" (TheWebConf 2021)
 
 1. Analysis of false positives in URL: [Twiti_URL_FP_Analysis.xlsx](Twiti_URL_FP_Analysis.xlsx)
 2. Extracted IOCs during our experiment: [extracted_iocs.csv](extracted_iocs.csv)
