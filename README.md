@@ -35,3 +35,12 @@ python -m ioc_extractor --help
 ```bash
 python -m classifier --help
 ```
+
+## Remarks on data license
+License may change over time. Almost all the data owners state that they may revise ToS at any time without notice. For example, at the time of our investigation, AlienVault did not provide any legal terms about OTX data usage right in its End-User License Agreement. We instead found the following statement in its website.  
+> Most threat data sharing products or services are limited in what they provide or require users to pay extra for what the provider deems as "premium" features. ... OTX alleviates that problem by providing a comprehensive threat intelligence service that’s 100% free, along with multiple methods for your security tools. 
+
+Hence, we interpreted AlienVault OTX as being "available for commercial use". However, its End-User License Agreement has been updated since April 2021 and it now clearly states that 
+> OTX is free to end users for non-commercial use. 
+
+This license restriction affects on the amount of IOCs by data use restriction in Section 5.1 of our paper.
