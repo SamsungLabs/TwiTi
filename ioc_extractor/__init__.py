@@ -6,6 +6,8 @@ ioc_type_all = ('urls', 'domain', 'ip', 'email', 'md5', 'sha1', 'sha256', 'sha51
                 'filename', 'filepath', 'registry', 'external')
 ioc_type_interesting = ('urls', 'domain', 'ip', 'md5', 'sha1', 'sha256', 'external')
 
+# We collected data from the following external links for research use only 
+# in compliance with the policy of data owners.
 INTERESTING_EXTERNALS = \
     {
         'virustotal.com':           'virustotal',
