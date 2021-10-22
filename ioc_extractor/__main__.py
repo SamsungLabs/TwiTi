@@ -10,7 +10,7 @@ def main():
         prog="ioc_extractor",
         description="""\
         Extracts IOC from tweet texts. 
-        Input format is list of the Tweet object from Twitter API.
+        Input format is list of the Tweet object from Twitter API(v1.1).
         """,
     )
     arg_parser.add_argument(
