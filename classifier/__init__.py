@@ -90,9 +90,7 @@ def _account_marking(_account: str) -> List[bool]:
 
 
 def account_marking(_tweets: List[str], accounts: List[str]) -> List[List[bool]]:
-    global tweets
-    tweets = _tweets
-    pool = Pool()
+    pool = Pool(initializer=init_pool, initargs=(_tweets,))
     datamatrix = pool.map(_account_marking, accounts)
     pool.close()
     pool.join()
@@ -106,10 +104,12 @@ def _term_marking(_term: str) -> List[int]:
     return counts
 
 
-def term_marking(_tweets: List[str], terms: List[str]) -> List[List[int]]:
+def init_pool(_tweets: List[str]):
     global tweets
     tweets = _tweets
-    pool = Pool()
+
+def term_marking(_tweets: List[str], terms: List[str]) -> List[List[int]]:
+    pool = Pool(initializer=init_pool, initargs=(_tweets,))
     datamatrix = pool.map(_term_marking, terms)
     pool.close()
     pool.join()
