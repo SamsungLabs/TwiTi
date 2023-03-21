@@ -9,3 +9,7 @@ The followings are the supplementary materials for the paper
    - [ioc_terms_malware.json](ioc_terms_malware.json)
 4. Common word dictionary: [terms_common.json](terms_common.json)   
 Partial data of common word dictionary that used in tweet preprocessing.
+
+###
+Notice
+- Due to limitations on sharing, we are unable to provide more data related to Tweets or any derivative works, as governed by Twitter's Terms of Service ([ToS](https://twitter.com/en/tos)).
