@@ -12,6 +12,8 @@ TwiTi does
 For more details please refer to our paper,     
 "[\#Twiti: Social Listening for Threat Intelligence](https://dl.acm.org/doi/10.1145/3442381.3449797)" (TheWebConf 2021)   
 Also, you can find supplementary materials of the paper in [data](data) directory.
+### Notice
+Due to change of Twitter's API policy, we can not use tweet data freely. You may have to subscribe API access of Twitter to use TwiTi.
 
 ## Requirements
 ### Python
